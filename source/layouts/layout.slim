@@ -1,0 +1,47 @@
+doctype html
+html
+  head lang="en"
+    meta charset="UTF-8"
+    title=current_page.data.title || " | Rocaloid"
+    meta http-equiv="X-UA-Compatible" content="IE=edge"
+    meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    meta name="format-detection" content="telephone=no"
+    meta name="renderer" content="webkit"
+    meta http-equiv="Cache-Control" content="no-siteapp"
+    link rel="alternate icon" type="image/png" href="assets/i/favicon.png"
+    ==stylesheet_link_tag "amui.all.min", "rocaloid", "normalize"
+
+  body 
+    header.am-topbar.am-topbar-inverse.head data-am-scrollspy="{animation:'slide-top', delay: 300}"
+      h1.am-topbar-brand
+        a href="#"
+          span.icon-logo-s
+      button.am-topbar-btn.am-topbar-toggle.am-btn.am-btn-sm.am-btn-default.toggle.am-show-sm-only data-am-collapse="{target: '#collapse-head', delay: 1500}"
+        span.am-sr-only
+          | 导航切换
+        span.am-icon-bars
+      #collapse-head.am-collapse.am-topbar-collapse
+        ul.am-nav.am-nav-pills.am-topbar-nav
+          li.am-active
+            a href="#"
+              | 首页
+          li
+            a href="#"
+              | 新闻
+          li
+            a href="#"
+              | 下载
+          li
+            a href="#"
+              | 音源
+          li
+            a href="#"
+              | 帮助
+          li
+            a href="#"
+              | 开发
+          li
+            a href="#"
+              | 捐赠
+    = yield 
+  ==javascript_include_tag "zepto.min", "amui.min", "app.js"
