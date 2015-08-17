@@ -21,27 +21,21 @@ html
           | 导航切换
         span.am-icon-bars
       #collapse-head.am-collapse.am-topbar-collapse
-        ul.am-nav.am-nav-pills.am-topbar-nav
+        ul.am-nav.am-nav-pills.am-topbar-nav.am-fr style="margin-right:1.5em"
           li.am-active
             a href="#"
               | 首页
           li
             a href="#"
-              | 新闻
+              | 使用说明
           li
             a href="#"
               | 下载
           li
             a href="#"
-              | 音源
+              | 源码
           li
             a href="#"
-              | 帮助
-          li
-            a href="#"
-              | 开发
-          li
-            a href="#"
-              | 捐赠
+              | 社区
     = yield 
   ==javascript_include_tag "zepto.min", "amui.min", "app.js"
