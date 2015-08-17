@@ -138,15 +138,10 @@ ul.am-dropdown-content>li>a {
   box-shadow: none !important;
 }
 
-#sowave {
-  position: relative;
-  top: -125px;
-  z-index: 1;
-}
 .scroll-guide {
   transition: opacity 1s;
   -webkit-animation: scroll 2s infinite;
-  margin-top: 5em;
+  margin-top: 2em;
   margin-bottom: -3em;
 }
 
