@@ -104,7 +104,7 @@ ul.am-dropdown-content>li>a {
   color: #333 !important;
 }
 .get {
-  background: #556166 linear-gradient(to bottom, #556166 0, #415D68 100%) repeat-x;
+  background: #556166;
   color: #fff;
   text-align: center;
   padding: 100px 0;
