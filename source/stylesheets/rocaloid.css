@@ -107,7 +107,7 @@ ul.am-dropdown-content>li>a {
 }
 .get {
     background: #556166;
-    
+    transition: all 0.5s;
     color: #fff;
     text-align: center;
     padding: 100px 0;
@@ -126,14 +126,14 @@ ul.am-dropdown-content>li>a {
 }
 .get.oku {
     background-image: url('/images/oku.png');
-    background-size: auto 79%;
+    background-size: auto 108%;
     background-repeat: no-repeat;
-    background-position: 87% 22rem;
+    background-position: 100% 20rem;
 }
 @media only screen and (max-width: 700px) {
   .get.oku {
-    background-size: auto 61%;
-    background-position: 93% 25rem;
+    background-size: auto 90%;
+    background-position: 80% 26rem;
   }
 }
 .get-btn-grid {
