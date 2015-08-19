@@ -22,8 +22,10 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
+
 body {
-  font-family:"Hiragino Sans GB","Hiragino Sans GB W3","Lucida Grande",Helvetica,Arial,"Microsoft YaHei","Segoe UI",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei",sans-serif;}
+  font-family:"Montserrat","Hiragino Sans GB","Hiragino Sans GB W3","Lucida Grande",Helvetica,"Microsoft YaHei","Segoe UI",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei",sans-serif;}
 
 .icon-logo-s:before {
 	content: "\e601";
@@ -104,10 +106,39 @@ ul.am-dropdown-content>li>a {
   color: #333 !important;
 }
 .get {
-  background: #556166;
-  color: #fff;
-  text-align: center;
-  padding: 100px 0;
+    background: #556166;
+    
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+.get.nuange {
+    background-image: url('/images/nuange.png');
+    background-size: auto 180%;
+    background-repeat: no-repeat;
+    background-position: 95% 10rem;
+}
+@media only screen and (max-width: 700px) {
+  .get.nuange {
+    background-size: auto 110%;
+    background-position: 97% 18rem;
+  }
+}
+.get.oku {
+    background-image: url('/images/oku.png');
+    background-size: auto 79%;
+    background-repeat: no-repeat;
+    background-position: 87% 22rem;
+}
+@media only screen and (max-width: 700px) {
+  .get.oku {
+    background-size: auto 61%;
+    background-position: 93% 25rem;
+  }
+}
+.get-btn-grid {
+  list-style: none;
+  padding: 0;
 }
 .get .col-sm-6.col-sm-centered {
   width: 20em;
@@ -225,5 +256,5 @@ ul.am-dropdown-content>li>a {
   margin: 0;
   padding: 15px 0;
   text-align: center;
-  background: #2d3e50;
+  background: #f2f2f2;
 }
