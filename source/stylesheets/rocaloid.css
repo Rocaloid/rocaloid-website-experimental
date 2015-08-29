@@ -25,7 +25,7 @@
 
 
 body {
-  font-family:"Montserrat","Hiragino Sans GB","Hiragino Sans GB W3","Lucida Grande",Helvetica,"Microsoft YaHei","Segoe UI",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei",sans-serif;}
+  font-family:"Hiragino Sans GB","Hiragino Sans GB W3","Seravek","Lucida Grande",Helvetica,"Microsoft YaHei","Segoe UI",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei",sans-serif;}
 
 .icon-logo-s:before {
 	content: "\e601";
@@ -114,27 +114,20 @@ ul.am-dropdown-content>li>a {
 }
 .get.nuange {
     background-image: url('/images/nuange.png');
-    background-size: auto 180%;
+    background-size: auto 200%;
     background-repeat: no-repeat;
-    background-position: 95% 10rem;
+    background-position: 114% 6rem;
 }
-@media only screen and (max-width: 700px) {
-  .get.nuange {
-    background-size: auto 110%;
-    background-position: 97% 18rem;
+@media only screen and (max-width: 1000px) {
+  .get.nuange, .get.oku {
+    background-image: none !important;
   }
 }
 .get.oku {
     background-image: url('/images/oku.png');
-    background-size: auto 108%;
+    background-size: auto 130%;
     background-repeat: no-repeat;
-    background-position: 100% 20rem;
-}
-@media only screen and (max-width: 700px) {
-  .get.oku {
-    background-size: auto 90%;
-    background-position: 80% 26rem;
-  }
+    background-position: -10% 14rem;
 }
 .get-btn-grid {
   list-style: none;
@@ -204,6 +197,7 @@ ul.am-dropdown-content>li>a {
   text-align: center;
   font-size: 150%;
   margin: 40px 0;
+  margin-bottom: 8rem;
 }
 
 .detail-h3 {
@@ -250,6 +244,34 @@ ul.am-dropdown-content>li>a {
   padding: 30px 0 50px 0;
   text-align: center;
 }
+.am-g.rocalist {
+  margin-top: 6.2rem;
+  margin-bottom: 1.4rem;
+}
+.am-g.rocalist:nth-of-type(even) p {
+  padding-left: 10rem;
+  padding-right: 1rem;
+  text-align: right;
+}
+.am-g.rocalist:nth-of-type(odd) p::before {
+    left: 0.5rem;
+}
+.am-g.rocalist:nth-of-type(odd) p {
+  padding-right: 10rem;
+  padding-left: 1rem;
+}
+.am-g.rocalist:nth-of-type(even) p::before {
+    right: 0.5rem;
+}
+.am-g.rocalist p::before {
+    position: absolute;
+    font-size: 4rem;
+    color: #E2DDE1;
+    margin-top: -6rem;
+    z-index: 4;
+}
+
+
 
 .footer p {
   color: #7f8c8d;

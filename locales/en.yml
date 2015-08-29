@@ -1,0 +1,34 @@
+---
+en:
+  nav:
+    nav_switch: 'Navigation Switch'
+    home: Home
+    document: Document
+    download: Download
+    source_code: Source Code
+    community: Community 
+  home:
+    banner:
+      l1: "Rocaloid Codename “Nanodesu (なのです)”"
+      l2: "get_started: Coming Soon This October!"
+    what_is: What is Rocaloid?
+    get_started: Get Started with Rocaloid
+    detail:
+      let_us_sing: Let’s sing with Rocaloid!
+      what_is: Rocaloid provides a new suite of synthesis engine and supporting software; also an integration with Cadencii editor.
+      sb_tool: "After that, Rocaloid will also release utilities for soundbank crafting."
+      not_alone: "From this version, Rocaloid completed the stage when we develop the technology alone. We will join the UTAU ecosystem and develop the virtual singing stars of our own. Nanodesu!"
+      power_up: "No matter you are a composer, a producer, an illustrator, a normal audience, or even a researcher or programmer, Rocaloid will power up your wings of imagination!"
+      nanodesu: "It will be much practical and interesting. Nanodesu!"
+    col:
+      what_is:
+        title: What is Rocaloid?
+        content: Rocaloid provides a new suite of synthesis engine and supporting software.</br >There is also an integration with Cadencii editor.
+      video:
+        title: Rocaloid Videos!
+        content: placeholder
+      contribute:
+        title: Fork Rocaloid!
+        content: placeholder
+      contact:
+        title: Get in Touch!

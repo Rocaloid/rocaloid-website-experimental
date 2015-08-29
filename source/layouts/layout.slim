@@ -9,7 +9,6 @@ html
     meta name="renderer" content="webkit"
     meta http-equiv="Cache-Control" content="no-siteapp"
     link rel="alternate icon" type="image/png" href="assets/i/favicon.png"
-    | <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     ==stylesheet_link_tag "amui.all.min", "rocaloid", "normalize"
 
   body 
@@ -19,24 +18,25 @@ html
           span.icon-logo-s
       button.am-topbar-btn.am-topbar-toggle.am-btn.am-btn-sm.am-btn-default.toggle.am-show-sm-only data-am-collapse="{target: '#collapse-head', delay: 1500}"
         span.am-sr-only
-          | 导航切换
+          == t(:nav)[:nav_switch]
         span.am-icon-bars
       #collapse-head.am-collapse.am-topbar-collapse
         ul.am-nav.am-nav-pills.am-topbar-nav.am-fr style="margin-right:1.5em"
           li.am-active
             a href="#"
-              | ホーム
+              == t(:nav)[:home]
           li
             a href="#"
-              | 使用説明書
+              == t(:nav)[:document]
           li
             a href="#"
-              | ダウンロード
+              == t(:nav)[:download]
           li
             a href="#"
-              | ソースコード
+              == t(:nav)[:source_code]
           li
             a href="#"
-              | コミュニティ
+              == t(:nav)[:community]
+
     = yield 
   ==javascript_include_tag "zepto.min", "amui.min", "app.js"

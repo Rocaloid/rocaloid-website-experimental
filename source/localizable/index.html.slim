@@ -5,55 +5,75 @@
         span.icon-logo
       h1.get-title.am-show-sm
         span.icon-logo-s
-      h3
-        | Rocaloid、コードネーム Nanodesu（なのです）
-      p
-        | 今秋十月公開予定
+      h3== t(:home)[:banner][:l1]
+      p== t(:home)[:banner][:l2]
       .am-g
         .col-sm-6.col-sm-centered
           ul.get-btn-grid
             li
               a.am-btn.am-btn-primary.am-btn-lg.get-btn href="#" style="border-color: #8EC9E6;"
-                | Rocaloid が何？
+                == t(:home)[:what_is]
             li
               a.am-btn.am-btn-success.am-btn-lg.get-btn href="#"
-                | Rocaloid の魔法をはじまり
+                == t(:home)[:get_started]
 
         div  data-am-scrollspy="{animation: 'fade', delay: 300}"
           p.scroll-guide
             i.am-icon-angle-double-down
+style
+  | .r-1 p::before {
+  |   content: "( ﾟДﾟ)σ"
+  | }
+  | .r-2 p::before {
+  |   content: "(:3[___]="
+  | }
+  | .r-3 p::before {
+  |   content: "─=≡Σ((( つ•̀ω•́)つ"
+  | }
+  | .r-4 p::before {
+  |   content: "(｡◕∀◕｡)"
+  | }
+  | .r-5 p::before {
+  |   content: "٩(｡・ω・｡)﻿و"
+  | }
+  |
+  |
+  |
 .detail
   .am-g.am-container
     .col-lg-12
-      h2.detail-h2
-        | みんな、一緒に Rocaloid で歌うよ！
+      h2.detail-h2== t(:home)[:detail][:let_us_sing]
+      .am-g.rocalist.r-1
+        p== t(:home)[:detail][:what_is]
+      .am-g.rocalist.r-2
+        p== t(:home)[:detail][:sb_tool]
+      .am-g.rocalist.r-3
+        p== t(:home)[:detail][:not_alone]
+      .am-g.rocalist.r-4
+        p== t(:home)[:detail][:power_up]
+      .am-g.rocalist.r-5
+        p== t(:home)[:detail][:nanodesu]
       .am-g
         .col-lg-3.col-md-6.col-sm-12.detail-mb
           h3.detail-h3
             i.am-icon-btn
               span.icon-logo-s
-            |  Rocaloid とは
-          p.detail-p
-            |  Rocaloid は、音声合成ソフト UTAU の為に、新しい合成エンジンと関連ソフトを作りました。
-          p.detail-p もちろん Cadencii をサポートするね〜
+            == t(:home)[:col][:what_is][:title]
+          p.detail-p== t(:home)[:col][:what_is][:content]
         .col-lg-3.col-md-6.col-sm-12.detail-mb
           h3.detail-h3
             i.am-icon-btn.am-icon-play
-            |  Rocaloid から動画
-          p.detail-p
-            |  Rocaloid は、音声合成ソフト UTAU の為に、新しい合成エンジンと関連ソフトを作りました。
-          p.detail-p もちろん Cadencii をサポートするね〜
+            == t(:home)[:col][:video][:title]
+          p.detail-p== t(:home)[:col][:video][:content]
         .col-lg-3.col-md-6.col-sm-12.detail-mb
           h3.detail-h3
             i.am-icon-btn.am-icon-git
-            |  Join the development
-          p.detail-p
-            |  Text Goes here...
-          p.detail-p もちろん Cadencii をサポートするね〜
+            == t(:home)[:col][:contribute][:title]
+          p.detail-p== t(:home)[:col][:contribute][:content]
         .col-lg-3.col-md-6.col-sm-12.detail-mb
           h3.detail-h3
             i.am-icon-btn.am-icon-smile-o
-            |  Get in touch
+            == t(:home)[:col][:contact][:title]
           ul.am-list-static
             li
               i.am-icon-twitter
