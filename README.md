@@ -4,7 +4,7 @@ Rocaloid Website in Middleman
 More Rails-like, no more liquid!
 
 require:
- * Ruby
+ * Ruby, Node.JS
  * `middleman` gem
  * your heart with love
 
