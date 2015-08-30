@@ -26,8 +26,16 @@ html {
         background: #415D68;
 
 }
-body {
-  font-family:"Hiragino Sans GB","Hiragino Sans GB W3","Lucida Grande",Helvetica,Arial,"Microsoft YaHei","Segoe UI",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei",sans-serif;}
+
+body { /* zh-CN, en */
+  font-family: "Helvetica Neue", Arial, "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC", "Microsoft Yahei", sans-serif;
+}
+body:lang(zh-TW) {
+  font-family: "Helvetica Neue", Arial, "Source Han Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft Jhenghei", sans-serif;
+}
+body:lang(ja) {
+  font-family: "Helvetica Neue", Arial, "Source Han Sans", "Noto Sans CJK", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
 
 .icon-logo-s:before {
   content: "\e601";
