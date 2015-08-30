@@ -1,12 +1,15 @@
+---
+title: "Home"
+---
 .get
   .am-g
     .col-lg-12
       h1.get-title.am-show-md-up
-        span.icon-logo
+        span.icon-logo title="Rocaloid"
       h1.get-title.am-show-sm
-        span.icon-logo-s
-      h3== t(:home)[:banner][:l1]
-      p== t(:home)[:banner][:l2]
+        span.icon-logo-s title="Rocaloid"
+      h3.get-desc== t(:home)[:banner][:l1]
+      p.get-desc== t(:home)[:banner][:l2]
       .am-g
         .col-sm-6.col-sm-centered
           ul.get-btn-grid
@@ -21,17 +24,14 @@
   .am-g.am-container
     .col-lg-12
       h2.detail-h2== t(:home)[:detail][:let_us_sing]
-      .am-g.rocalist.r-1
+      .am-g.rocalist
         p== t(:home)[:detail][:what_is]
-      .am-g.rocalist.r-2
         p== t(:home)[:detail][:sb_tool]
-      .am-g.rocalist.r-3
         p== t(:home)[:detail][:not_alone]
-      .am-g.rocalist.r-4
         p== t(:home)[:detail][:power_up]
-      .am-g.rocalist.r-5
         p== t(:home)[:detail][:nanodesu]
-      .am-g
+      / 先隐藏起来把网站上线了再说
+      .am-g style="display: none"
         .col-lg-3.col-md-6.col-sm-12.detail-mb
           h3.detail-h3
             i.am-icon-btn

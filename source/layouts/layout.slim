@@ -1,8 +1,9 @@
 doctype html
-html
-  head lang="en"
+html lang=t(:meta)[:lang_name]
+  head
     meta charset="UTF-8"
-    title=current_page.data.title || " | Rocaloid"
+    /title=current_page.data.title || " | Rocaloid"
+    title=t(:titles)[current_page.data.title.to_sym] || " | Rocaloid"
     meta http-equiv="X-UA-Compatible" content="IE=edge"
     meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
     meta name="format-detection" content="telephone=no"
@@ -14,7 +15,7 @@ html
   body 
     header.am-topbar.am-topbar-inverse.head data-am-scrollspy="{animation:'slide-top', delay: 300}"
       h1.am-topbar-brand
-        a href="#"
+        a href="#" title=t(:nav)[:nav_switch]
           span.icon-logo-s
       button.am-topbar-btn.am-topbar-toggle.am-btn.am-btn-sm.am-btn-default.toggle.am-show-sm-only data-am-collapse="{target: '#collapse-head', delay: 1500}"
         span.am-sr-only
@@ -25,18 +26,19 @@ html
           li.am-active
             a href="#"
               == t(:nav)[:home]
+          / 先隐藏起来把网站上线了再说
+          /li
+          /  a href="#"
+          /    == t(:nav)[:document]
+          /li
+          /  a href="#"
+          /    == t(:nav)[:download]
           li
-            a href="#"
-              == t(:nav)[:document]
-          li
-            a href="#"
-              == t(:nav)[:download]
-          li
-            a href="#"
+            a href="https://github.com/Rocaloid/RUCE"
               == t(:nav)[:source_code]
-          li
-            a href="#"
-              == t(:nav)[:community]
+          /li
+          /  a href="#"
+          /    == t(:nav)[:community]
 
     = yield 
   ==javascript_include_tag "zepto.min", "amui.min", "app.js"

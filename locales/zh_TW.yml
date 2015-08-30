@@ -1,0 +1,39 @@
+---
+zh_TW:
+  meta:
+    lang_name: "zh-TW"
+    lang_name_local: 正體中文
+  titles:
+    Home: 主頁
+  nav:
+    nav_switch: 導航切換
+    home: 主頁
+    document: 使用說明
+    download: 下載
+    source_code: 原始碼
+    community: 討論社區
+  home:
+    banner:
+      l1: "Rocaloid，開發代號 Nanodesu（ㄋㄚㄋㄛㄉㄝㄙ）"
+      l2: 今秋十月，震撼釋出
+    what_is: "Rocaloid 是什么？"
+    get_started: 即將開啓
+    detail:
+      let_us_sing: "大家一起來唱響 Rocaloid！"
+      what_is: "Rocaloid 為歌聲合成軟體 UTAU 提供一套新的合成引擎和配套軟體；當然 Cadencii 編輯器也是支援的說～"
+      sb_tool: "隨後，Rocaloid 將要釋出音源製作工具組。"
+      not_alone: "從這個版本起，Rocaloid 不再孤身奮戰。我們將融入 UTAU 生態圈，與大家一起創造心目中的虛擬歌姬，ㄋㄚㄋㄛㄉㄝㄙ！"
+      power_up: "不論你是作曲家、調教師、插畫家、一般聽衆，還是研究員或程序員，Rocaloid 會為你幻想的翅膀一直、一直地提供技術動力支援喲。"
+      nanodesu: "會很實用又很有趣喏，ㄋㄚㄋㄛㄉㄝㄙ！"
+    col:
+      what_is:
+        title: "\ Rocaloid 是什么"
+        content: "Rocaloid 是為歌聲合成軟體 UTAU 設計的一套新合成引擎和配套軟體。"
+      video:
+        title: "\ Rocaloid 的影片"
+        content: placeholder
+      contribute:
+        title: "\ 參與開發！"
+        content: placeholder
+      contact:
+        title: "\ 找到組織！"

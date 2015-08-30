@@ -1,5 +1,10 @@
 ---
 zh_CN:
+  meta:
+    lang_name: "zh-CN"
+    lang_name_local: 简体中文
+  titles:
+    Home: 主页
   nav:
     nav_switch: 导航切换
     home: 主页
@@ -9,23 +14,23 @@ zh_CN:
     community: 讨论社区
   home:
     banner:
-      l1: Rocaloid 开发代号 “Nanodesu (なのです)”
+      l1: "Rocaloid，开发代号 Nanodesu"
       l2: 今秋十月，震撼发布
-    what_is: Rocaloid 是什么？
-    get_started: 来试试 Rocaloid 吧！
+    what_is: "Rocaloid 是什么？"
+    get_started: 即将开启
     detail:
-      let_us_sing: 大家一起来唱响 Rocaloid！
-      what_is: Rocaloid 为歌声合成软件 UTAU 提供一套新的合成引擎和配套软件；当然 Cadencii 编辑器也是支持的说～
-      sb_tool: 随后，Rocaloid 将要发布音源制作套件。
-      not_alone: 从这个版本起，Rocaloid 不再孤身奋战。我们将融入 UTAU 生态圈，与大家一起创造心目中的虚拟歌姬，nanodesu！
-      power_up: 不论你是作曲家、调教师、插画家、一般听众，还是研究员或程序员，Rocaloid 会为你幻想的翅膀一直、一直地提供技术动力支持哟。
-      nanodesu: 会很实用又很有趣喏，nanodesu！
+      let_us_sing: "大家一起来唱响 Rocaloid！"
+      what_is: "Rocaloid 为歌声合成软件 UTAU 提供一套新的合成引擎和配套软件；当然 Cadencii 编辑器也是支持的说～"
+      sb_tool: "随后，Rocaloid 将要发布音源制作套件。"
+      not_alone: "从这个版本起，Rocaloid 不再孤身奋战。我们将融入 UTAU 生态圈，与大家一起创造心目中的虚拟歌姬，nanodesu！"
+      power_up: "不论你是作曲家、调教师、插画家、一般听众，还是研究员或程序员，Rocaloid 会为你幻想的翅膀一直、一直地提供技术动力支持哟。"
+      nanodesu: "会很实用又很有趣喏，nanodesu！"
     col:
       what_is:
-        title: "\ Rocaloid 是什么？"
-        content: Rocaloid 为歌声合成软件 UTAU 提供一套新的合成引擎和配套软件。</br >当然 Cadencii 编辑器也是支持的说～
+        title: "\ Rocaloid 是什么"
+        content: "Rocaloid 是为歌声合成软件 UTAU 设计的一套新合成引擎和配套软件。"
       video:
-        title: "\ Rocaloid 视频！"
+        title: "\ Rocaloid 的视频"
         content: placeholder
       contribute:
         title: "\ 参与开发！"

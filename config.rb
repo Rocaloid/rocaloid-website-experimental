@@ -56,7 +56,7 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 activate :i18n, :mount_at_root => false,
-  :lang_map => { :ja => :jp, :zh_CN => :cn, :zh_TW => :tw, :en_US => :en }
+  :lang_map => { :ja => :ja, :zh_CN => :"zh-cn", :zh_TW => :"zh-tw", :en_US => :en }
 
 
 # Build-specific configuration
