@@ -24,13 +24,13 @@
 }
 
 body { /* zh-CN, en */
-  font-family: "Helvetica Neue", Arial, "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC", "Microsoft Yahei", sans-serif;
+  font-family: "Helvetica Neue", Arial, "Nimbus Sans L", "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC", "Microsoft Yahei", sans-serif;
 }
 body:lang(zh-TW) {
-  font-family: "Helvetica Neue", Arial, "Source Han Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft Jhenghei", sans-serif;
+  font-family: "Helvetica Neue", Arial, "Nimbus Sans L", "Source Han Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft Jhenghei", sans-serif;
 }
 body:lang(ja) {
-  font-family: "Helvetica Neue", Arial, "Source Han Sans", "Noto Sans CJK", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  font-family: "Helvetica Neue", Arial, "Nimbus Sans L", "Source Han Sans", "Noto Sans CJK", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
 }
 
 .icon-logo-s:before {
