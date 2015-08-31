@@ -25,6 +25,7 @@ zh_TW:
       not_alone: "從這個版本起，Rocaloid 不再孤身奮戰。我們將融入 UTAU 生態圈，與大家一起創造心目中的虛擬歌姬，ㄋㄚㄋㄛㄉㄝㄙ！"
       power_up: "不論你是作曲家、調教師、插畫家、一般聽衆，還是研究員或程序員，Rocaloid 會為你幻想的翅膀一直、一直地提供技術動力支援喲。"
       nanodesu: "會很實用又很有趣喏，ㄋㄚㄋㄛㄉㄝㄙ！"
+    legal_notice: "新版 Rocaloid 將完全與 UTAU 音源相容，而不相容舊版 Rocaloid 音源制式。新音源如需支援舊版 Rocaloid，有必要轉換制式。這可能涉及到音源的再分發權利事宜，請與音源製作者聯絡。"
     col:
       what_is:
         title: "\ Rocaloid 是什么"

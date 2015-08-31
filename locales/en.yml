@@ -25,6 +25,7 @@ en:
       not_alone: "Starting from this version, Rocaloid completed the stage when we develop the technology alone. We will join the UTAU ecosystem and develop the virtual singing stars of our own. Nanodesu!"
       power_up: "No matter you are a composer, a producer, an illustrator, a normal audience, or even a researcher or programmer, Rocaloid will continue to power up your wings of imagination!"
       nanodesu: "It will be much practical and interesting. Nanodesu!"
+    legal_notice: "New Rocaloid will be fully compatible to UTAU soundbanks instead of supporting old Rocaloid soundbank format. It is necessary to convert format if you want new soundbanks to support old Rocaloid. This may cause issues of soundbank redistribution, please contact the original soundbank author."
     col:
       what_is:
         title: "\ Introduction to Rocaloid"

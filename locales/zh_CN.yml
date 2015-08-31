@@ -25,6 +25,7 @@ zh_CN:
       not_alone: "从这个版本起，Rocaloid 不再孤身奋战。我们将融入 UTAU 生态圈，与大家一起创造心目中的虚拟歌姬，nanodesu！"
       power_up: "不论你是作曲家、调教师、插画家、一般听众，还是研究员或程序员，Rocaloid 会为你幻想的翅膀一直、一直地提供技术动力支持哟。"
       nanodesu: "会很实用又很有趣喏，nanodesu！"
+    legal_notice: "新版 Rocaloid 将完全兼容 UTAU 音源，而不兼容旧版 Rocaloid 音源格式。新音源若需要支持旧版 Rocaloid，有必要转换为中间格式。这可能涉及到音源的重发行权利事宜，请与音源制作者联系。"
     col:
       what_is:
         title: "\ Rocaloid 是什么"
