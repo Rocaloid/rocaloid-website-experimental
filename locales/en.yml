@@ -17,24 +17,24 @@ en:
       l1: "Rocaloid, Codename “Nanodesu”"
       l2: "Coming soon this October"
     what_is: "What’s Rocaloid?"
-    get_started: "To be released"
+    get_started: "Stay tuned"
     detail:
       let_us_sing: "Let’s sing with Rocaloid!"
-      what_is: "Rocaloid provides a new suite of synthesis engine and supporting software for UTAU voice synthesizer; also an integration with Cadencii editor."
-      sb_tool: "After that, Rocaloid will also release utilities for soundbank crafting."
-      not_alone: "Starting from this version, Rocaloid completed the stage when we develop the technology alone. We will join the UTAU ecosystem and develop the virtual singing stars of our own. Nanodesu!"
-      power_up: "No matter you are a composer, a producer, an illustrator, a normal audience, or even a researcher or programmer, Rocaloid will continue to power up your wings of imagination!"
-      nanodesu: "It will be much practical and interesting. Nanodesu!"
-    legal_notice: "New Rocaloid will be fully compatible to UTAU soundbanks instead of supporting old Rocaloid soundbank format. It is necessary to convert format if you want new soundbanks to support old Rocaloid. This may cause issues of soundbank redistribution, please contact the original soundbank author."
+      what_is: "Rocaloid provides a new suite of synthesis engine and supporting tools for UTAU voice synthesis software, as well as Cadencii editor."
+      sb_tool: "Later, Rocaloid will also release utilities for soundbank creation."
+      not_alone: "Starting from this version, Rocaloid no longer goes alone. We will be an active participator in the UTAU ecosystem and help develop your own virtual singing stars. Nanodesu!"
+      power_up: "No matter you are a composer, a producer, an illustrator, an audience, or even a researcher or a programmer, Rocaloid will continue to power up your wings of imagination!"
+      nanodesu: "It's gonna be practical and brings lots of fun. Nanodesu!"
+    legal_notice: "The new Rocaloid will be fully compatible with UTAU soundbanks; old Rocaloid format is deprecated and will no longer be supported. Conversion is needed for backporting new soundbanks to deprecated versions, which may involve licensing issues regarding redistribution. Please contact the original soundbank author."
     col:
       what_is:
         title: "\ Introduction to Rocaloid"
         content: "Rocaloid is a new suite of synthesis engine and supporting software designed for UTAU voice synthesizer."
       video:
         title: "\ Videos of Rocaloid"
-        content: "Lorem ipsum dolor sit amet"
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       contribute:
         title: "\ Join Rocaloid development"
-        content: "Lorem ipsum dolor sit amet"
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       contact:
         title: "\ Find Rocaloid community"

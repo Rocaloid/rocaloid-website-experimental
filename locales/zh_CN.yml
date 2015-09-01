@@ -32,9 +32,9 @@ zh_CN:
         content: "Rocaloid 是为歌声合成软件 UTAU 设计的一套新合成引擎和配套软件。"
       video:
         title: "\ Rocaloid 的视频"
-        content: placeholder
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       contribute:
         title: "\ 参与开发！"
-        content: placeholder
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       contact:
         title: "\ 找到组织！"

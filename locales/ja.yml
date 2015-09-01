@@ -17,7 +17,7 @@ ja:
       l1: "Rocaloid、コードネーム Nanodesu（なのです）"
       l2: "今秋十月　公開予定"
     what_is: "Rocaloid とは？"
-    get_started: 公開します
+    get_started: 乞うご期待
     detail:
       let_us_sing: "みんな、一緒に Rocaloid で歌うよ！"
       what_is: "Rocaloid は、音声合成ソフト UTAU の為に、新しい合成エンジンと関連ソフトを作りました。もちろん Cadencii をサポートするね〜"
@@ -32,9 +32,9 @@ ja:
         content: "Rocaloid は、音声合成ソフト UTAU の為に、新しい合成エンジンと関連ソフトです。"
       video:
         title: "\ Rocaloid の動画"
-        content: placeholder
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       contribute:
         title: "\ Rocaloid の開発を参加する"
-        content: placeholder
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       contact:
         title: "\ Rocaloid のｺﾐｭﾆﾃｨを探する"
