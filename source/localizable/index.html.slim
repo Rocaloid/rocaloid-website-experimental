@@ -14,13 +14,13 @@ title: "Home"
         .col-sm-6.col-sm-centered
           ul.get-btn-grid
             li
-              a.am-btn.am-btn-success.am-btn-lg.get-btn href="#"
+              a.am-btn.am-btn-success.am-btn-lg.get-btn href="#detail"
                 == t(:home)[:get_started]
 
         div  data-am-scrollspy="{animation: 'fade', delay: 300}"
           p.scroll-guide
             i.am-icon-angle-double-down
-.detail
+.detail#detail name="detail"
   .am-g.am-container
     .col-lg-12
       h2.detail-h2== t(:home)[:detail][:let_us_sing]
