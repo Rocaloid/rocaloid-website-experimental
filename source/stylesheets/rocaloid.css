@@ -159,8 +159,31 @@ ul.am-dropdown-content>li>a {
   display: inline-block;
   text-shadow: 0px 3px 3px rgba(56, 59, 61, 1);
 }
-.get-desc {
-  font-size: 2.5vw;
+.get-desc { /* zh-cn */
+  font-size: 3.5rem;
+}
+.get-desc:lang(zh-tw) {
+  font-size: 2.5rem;
+}
+.get-desc:lang(ja) {
+  font-size: 2.5rem;
+}
+.get-desc:lang(en) {
+  font-size: 3.5rem;
+}
+@media only screen and (max-width: 640px) {
+  .get-desc { /* zh-cn */
+    font-size: 5.5vw;
+  }
+  .get-desc:lang(zh-tw) {
+    font-size: 3.5vw;
+  }
+  .get-desc:lang(ja) {
+    font-size: 4vw;
+  }
+  .get-desc:lang(en) {
+    font-size: 5vw;
+  }
 }
 .get-btn {
   background: none;
