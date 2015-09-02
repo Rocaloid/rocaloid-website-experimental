@@ -20,8 +20,8 @@ en:
     get_started: "Stay tuned"
     detail:
       let_us_sing: "Let’s sing with Rocaloid!"
-      what_is: "Rocaloid provides a new suite of synthesis engine and supporting tools for UTAU voice synthesis software, as well as Cadencii editor."
-      sb_tool: "Later, Rocaloid will also release utilities for soundbank creation."
+      what_is: "Rocaloid provides a new software suite including a synthesis engine and supporting tools for UTAU voice synthesis software, as well as Cadencii editor."
+      sb_tool: "Later, Rocaloid will also release utilities for soundbank building."
       not_alone: "Starting from this version, Rocaloid no longer goes alone. We will be an active participator in the UTAU ecosystem and help develop your own virtual singing stars. Nanodesu!"
       power_up: "No matter you are a composer, a producer, an illustrator, an audience, or even a researcher or a programmer, Rocaloid will continue to power up your wings of imagination!"
       nanodesu: "It's gonna be practical and brings lots of fun. Nanodesu!"
